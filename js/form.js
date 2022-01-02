@@ -2,9 +2,10 @@ document.querySelector("#submit").addEventListener("click", e => {
   e.preventDefault();
 
   //INGRESE UN NUMERO DE WHATSAPP VALIDO AQUI:
-  let telefono = "529878760533";
+  let telefono = "529878690776";
 
   let cliente = document.querySelector("#cliente").value;
+  let correo = document.querySelector("#correo").value;
   let fecha = document.querySelector("#fecha").value;
   let hora = document.querySelector("#hora").value;
   let PACIENTE = document.querySelector("#PACIENTE").value;
@@ -19,6 +20,8 @@ document.querySelector("#submit").addEventListener("click", e => {
 		*Reservas*%0A%0A
 		*¿Cuál es tu nombre?*%0A
 		${cliente}%0A
+    *¿Cuál es tu correo electronico o e-mail?*%0A
+		${correo}%0A
 		*Indica la fecha de tu reserva*%0A
 		${fecha}%0A
 		*Indica la hora de tu reserva*%0A
